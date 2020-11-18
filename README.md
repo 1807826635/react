@@ -39,32 +39,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `说明`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+create-react-app脚手架中的react-scripts能够(1)帮我们自动下载需要的webpack依赖；(2)自己写了一个nodejs服务端脚本代码；(3)使用express的Http服务器；(4)并帮我们隐藏了配置文件。
+运行如下命令即可把配置文件显示出来：
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm run eject
 
-### Code Splitting
+//然后输入Y
+输入后项目目录会多出一个congfig文件夹，里面就有webpack的配置文件。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+但是此过程不可逆，所以显现回来后就不能再隐藏回去了。
 
-### Analyzing the Bundle Size
+###文档链接
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+redux:  http://cn.redux.js.org/docs/basics/Actions.html
 
-### Making a Progressive Web App
+// 修改webpack 配置文档
+customize-cra : https://github.com/arackaf/customize-cra
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+//react-router-dom 文档
+react-router-dom：https://reactrouter.com/web/guides/quick-start
